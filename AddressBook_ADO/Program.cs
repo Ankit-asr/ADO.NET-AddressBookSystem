@@ -7,6 +7,8 @@ namespace AddressBook_ADO
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to ADO.NET Address Book System ");
+            DatabaseManager manager = new DatabaseManager();
+            manager.CreateDatabase();
         }
     }
 }
